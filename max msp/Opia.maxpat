@@ -39,13 +39,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-12",
-					"linecount" : 3,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.0, 240.0, 221.0, 47.0 ],
+					"patching_rect" : [ 582.0, 240.0, 221.0, 100.0 ],
 					"style" : "",
-					"text" : "-95(85) a -128(52) et 108(72) a 115(65)\n\n-80(100) -52(128) et -62(118) -70(110)\n"
+					"text" : "-95(85) a -128(52) et 108(72) a 115(65)\n\n\n-80(100) -52(128) et -62(118) -70(110)\n\n\n"
 				}
 
 			}
@@ -1012,7 +1012,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 36.0, 45.0, 352.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 45.0, 352.0, 104.0 ],
+					"presentation_rect" : [ 34.0, 5.0, 357.0, 156.5 ],
 					"viewvisibility" : 1
 				}
 
@@ -1870,7 +1870,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ReceivedSerial.maxpat",
-				"bootpath" : "~/Documents/GitProject",
+				"bootpath" : "~/Documents/GitProject/Opia/OpiaProject/max msp",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1878,7 +1878,7 @@
 , 			{
 				"name" : "synthJat.maxpat",
 				"bootpath" : "~/Documents/MaxPath",
-				"patcherrelativepath" : "../MaxPath",
+				"patcherrelativepath" : "../../../../MaxPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
