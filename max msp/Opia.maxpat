@@ -164,7 +164,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 324.5, 283.5, 50.0, 20.0 ],
 					"style" : "",
-					"text" : "P2 val"
+					"text" : "P1 val"
 				}
 
 			}
@@ -174,11 +174,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.75, 228.5, 50.0, 20.0 ],
+					"patching_rect" : [ 180.75, 228.5, 50.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.25, 283.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 199.25, 283.5, 50.0, 33.0 ],
 					"style" : "",
-					"text" : "P1 val\n"
+					"text" : "P2 val\n"
 				}
 
 			}
@@ -374,9 +374,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 421.0, 238.0, 22.0 ],
+					"patching_rect" : [ 352.0, 421.0, 225.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 128 && $i1 >= 100 then 2.5 else 0"
+					"text" : "if $i1 <= 52 && $i1 >= 80 then 2.5 else 0"
 				}
 
 			}
@@ -1065,7 +1065,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 336.0, 175.5, 33.0, 22.0 ],
 					"style" : "",
-					"text" : "r P2"
+					"text" : "r P1"
 				}
 
 			}
@@ -1078,7 +1078,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 70.0, 185.0, 33.0, 22.0 ],
 					"style" : "",
-					"text" : "r P1"
+					"text" : "r P2"
 				}
 
 			}
