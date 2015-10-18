@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 219.0, 98.0, 781.0, 688.0 ],
+		"rect" : [ 34.0, 79.0, 772.0, 866.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -850,9 +850,8 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 652.0, 1113.0, 104.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ synthJat 64"
@@ -1726,36 +1725,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-82", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 661.5, 1164.0, 686.771362, 1164.0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 661.5, 1173.0, 657.771362, 1173.0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 810.5, 1110.0, 746.5, 1110.0 ],
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1870,15 +1839,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ReceivedSerial.maxpat",
-				"bootpath" : "~/Documents/GitProject",
+				"bootpath" : "~/Documents/GitHub/OpiaProject/max msp",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "synthJat.maxpat",
-				"bootpath" : "~/Documents/MaxPath",
-				"patcherrelativepath" : "../MaxPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
