@@ -164,7 +164,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 324.5, 283.5, 50.0, 20.0 ],
 					"style" : "",
-					"text" : "P1 val"
+					"text" : "P2 val"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 199.25, 283.5, 50.0, 33.0 ],
 					"style" : "",
-					"text" : "P2 val\n"
+					"text" : "P1 val\n"
 				}
 
 			}
@@ -946,7 +946,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 1393.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.5, 561.0, 45.0, 45.0 ],
+					"presentation_rect" : [ 88.5, 565.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -1065,7 +1065,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 336.0, 175.5, 33.0, 22.0 ],
 					"style" : "",
-					"text" : "r P1"
+					"text" : "r P2"
 				}
 
 			}
@@ -1078,7 +1078,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 70.0, 185.0, 33.0, 22.0 ],
 					"style" : "",
-					"text" : "r P2"
+					"text" : "r P1"
 				}
 
 			}
