@@ -11,7 +11,7 @@
 ,
 		"rect" : [ 219.0, 98.0, 781.0, 688.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.0, 240.0, 221.0, 100.0 ],
+					"patching_rect" : [ 582.0, 240.0, 221.0, 87.0 ],
 					"style" : "",
 					"text" : "-95(85) a -128(52) et 108(72) a 115(65)\n\n\n-80(100) -52(128) et -62(118) -70(110)\n\n\n"
 				}
