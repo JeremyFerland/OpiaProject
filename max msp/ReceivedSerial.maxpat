@@ -62,6 +62,7 @@
 					"patching_rect" : [ 20.0, 381.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 26.0, 106.0, 40.0, 40.0 ],
+					"size" : 1024.0,
 					"style" : ""
 				}
 
@@ -77,6 +78,7 @@
 					"patching_rect" : [ 315.0, 396.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 93.0, 106.0, 40.0, 40.0 ],
+					"size" : 1024.0,
 					"style" : ""
 				}
 
