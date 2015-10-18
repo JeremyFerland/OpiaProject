@@ -374,9 +374,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 421.0, 225.0, 22.0 ],
+					"patching_rect" : [ 352.0, 421.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 75 && $i1 >= 50 then 2.5 else 0"
+					"text" : "if $i1 <= 75 && $i1 >= 50 then 3 else 0"
 				}
 
 			}
@@ -482,7 +482,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 457.0, 228.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 130 && $i1 >= 105 then 3 else 0"
+					"text" : "if $i1 <= 130 && $i1 >= 105 then 2 else 0"
 				}
 
 			}
@@ -493,7 +493,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 348.0, 227.0, 22.0 ],
+					"patching_rect" : [ 88.0, 350.0, 227.0, 22.0 ],
 					"style" : "",
 					"text" : "if $i1 >= 115 && $i1 <= 120 then 2 else 1"
 				}
