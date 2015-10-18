@@ -376,7 +376,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 352.0, 421.0, 225.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 52 && $i1 >= 80 then 2.5 else 0"
+					"text" : "if $i1 <= 80 && $i1 >= 52 then 2.5 else 0"
 				}
 
 			}
@@ -389,7 +389,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 356.0, 311.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 >= 70 && $i1 <= 62 then 2 else 1"
+					"text" : "if $i1 >= 62 && $i1 <= 70 then 2 else 1"
 				}
 
 			}
@@ -482,7 +482,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 457.0, 221.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 95 && $i1 >= 128 then 3 else 0"
+					"text" : "if $i1 <= 128 && $i1 >= 95 then 3 else 0"
 				}
 
 			}
@@ -495,7 +495,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 348.0, 227.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 >= 115 && $i1 <= 108 then 2 else 1"
+					"text" : "if $i1 >= 108 && $i1 <= 115 then 2 else 1"
 				}
 
 			}
