@@ -7,12 +7,11 @@
  Description : This patch recieves OSC message thru the serial.
  Licence : This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
  
- 
  */
 
 PImage groundBg;
 
-VisionRange visionRange;
+VisionRange visionRange1, visionRange2;
 int visionRangeCount;
 
 LookAt lookAt;
@@ -48,11 +47,14 @@ void setup() {
 
   noStroke();
 
-  visionRange = new VisionRange();
+  visionRange1 = new VisionRange(width - width/8, height/8,-130, -105, -122, -115);
+  visionRange2 = new VisionRange(width - width/8, height - height/8, -75, -50, -70, -60);
+  
   visionRangeCount = 2;
 
   lookAt = new LookAt();
 
+  // Starting degree facing left of the screen
   p1 = -90;
   p2 = -90;
 }
@@ -61,24 +63,22 @@ void draw() {
   background(0);
   image(groundBg, 0, 0);
 
-
   for (int i = 0; i < visionRangeCount; i++) {
-    visionRange.display(width - width/8, height/8, p1);
-    visionRange.display(width - width/8, height - height/8, p2);
+    visionRange1.display(p1,h1);
+    visionRange2.display(p2,h1);
   }
 
-  // haut = -95 to - 128 // close range  -108 to -115
-  // bas = -80 to -52 // close range -62 to -70
-  lookAt.display(p1,-130,-105,-115,-122);
-  lookAt.display(p2, -75, -50, -60, -70);
+  lookAt.setState(visionRange1.state()+visionRange2.state());
+  lookAt.setHall(h1);
+  lookAt.display();
 
   fill(lookAt.targetColor);
   ellipse(350, height/2, lookAt.targetSize, lookAt.targetSize);
 
-println("p1 = "+p1);
-println("p2 = "+p2);
+  //println("p1 = "+p1);
+  //println("p2 = "+p2);
+  
 }
-
 
 /* incoming osc message are forwarded to the oscEvent method. */
 void oscEvent(OscMessage theOscMessage) {
