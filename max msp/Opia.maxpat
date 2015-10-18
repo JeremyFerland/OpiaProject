@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 772.0, 866.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 707.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -387,9 +387,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 311.0, 226.0, 22.0 ],
+					"patching_rect" : [ 356.0, 311.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 >= 110 && $i1 <= 118 then 2 else 1"
+					"text" : "if $i1 >= 70 && $i1 <= 62 then 2 else 1"
 				}
 
 			}
@@ -480,9 +480,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 457.0, 215.0, 22.0 ],
+					"patching_rect" : [ 88.0, 457.0, 221.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 85 && $i1 >= 52 then 3 else 0"
+					"text" : "if $i1 <= 95 && $i1 >= 128 then 3 else 0"
 				}
 
 			}
@@ -493,9 +493,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 348.0, 215.0, 22.0 ],
+					"patching_rect" : [ 88.0, 348.0, 227.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 >= 65 && $i1 <= 72 then 2 else 1"
+					"text" : "if $i1 >= 115 && $i1 <= 108 then 2 else 1"
 				}
 
 			}
@@ -850,8 +850,9 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 652.0, 1113.0, 104.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ synthJat 64"
@@ -1725,6 +1726,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-82", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1833,13 +1852,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-54" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-82" : [ "live.gain~[3]", "live.gain~[3]", 0 ]
+			"obj-82" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-54" : [ "live.gain~[11]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ReceivedSerial.maxpat",
-				"bootpath" : "~/Documents/GitHub/OpiaProject/max msp",
+				"bootpath" : "~/Documents/GitProject/Opia/OpiaProject/max msp",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synthJat.maxpat",
+				"bootpath" : "~/Documents/GitProject/Opia/OpiaProject/max msp",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
