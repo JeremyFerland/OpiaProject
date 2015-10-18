@@ -43,9 +43,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.0, 240.0, 221.0, 87.0 ],
+					"patching_rect" : [ 583.0, 239.0, 221.0, 100.0 ],
 					"style" : "",
-					"text" : "-95(85) a -128(52) et 108(72) a 115(65)\n\n\n-80(100) -52(128) et -62(118) -70(110)\n\n\n"
+					"text" : "-130,-105, et -120,-115\n\n\n-75(100) -50(128) et -60(118) -70(110)\n\n\n"
 				}
 
 			}
@@ -376,7 +376,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 352.0, 421.0, 225.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 80 && $i1 >= 52 then 2.5 else 0"
+					"text" : "if $i1 <= 75 && $i1 >= 50 then 2.5 else 0"
 				}
 
 			}
@@ -389,7 +389,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 356.0, 311.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 >= 62 && $i1 <= 70 then 2 else 1"
+					"text" : "if $i1 >= 60 && $i1 <= 70 then 2 else 1"
 				}
 
 			}
@@ -480,9 +480,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 457.0, 221.0, 22.0 ],
+					"patching_rect" : [ 88.0, 457.0, 228.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <= 128 && $i1 >= 95 then 3 else 0"
+					"text" : "if $i1 <= 130 && $i1 >= 105 then 3 else 0"
 				}
 
 			}
@@ -495,7 +495,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 348.0, 227.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 >= 108 && $i1 <= 115 then 2 else 1"
+					"text" : "if $i1 >= 115 && $i1 <= 120 then 2 else 1"
 				}
 
 			}
