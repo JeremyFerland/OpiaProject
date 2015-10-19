@@ -2,7 +2,6 @@
 // Created on October 16, 2015
 // Arduino V1.6.5-r5
 
-// Description : This code sends data to the serial to control an interactive video projection made on Processing
 // Licence : This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
 
 // Title : Opia

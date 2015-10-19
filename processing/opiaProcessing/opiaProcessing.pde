@@ -4,10 +4,6 @@
  Created on October 14, 2015
  Processing V3.0
  
- Description : This code displays a playground viewed from top with 3 persons facing each other. The user can change the
-   rotation of the view for 2 out of those 3. If the 3rd person is being looked at, the color changes and the oscillation gets
-   faster of smaller. The communication system is based on OSC with an imported library (oscP5). (http://www.sojamo.de/libraries/oscP5)
- 
  Licence : This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
  
  Title : Opia
