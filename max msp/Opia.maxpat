@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "tapconnect" ],
+					"patching_rect" : [ 939.0, 217.0, 44.0, 22.0 ],
+					"style" : "",
+					"text" : "tapin~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 583.0, 239.0, 221.0, 100.0 ],
+					"patching_rect" : [ 583.0, 239.0, 221.0, 87.0 ],
 					"style" : "",
 					"text" : "-130,-105, et -120,-115\n\n\n-75(100) -50(128) et -60(118) -70(110)\n\n\n"
 				}
@@ -174,9 +187,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.75, 228.5, 50.0, 33.0 ],
+					"patching_rect" : [ 180.75, 228.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.25, 283.5, 50.0, 33.0 ],
+					"presentation_rect" : [ 199.25, 283.5, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "P1 val\n"
 				}
@@ -1744,6 +1757,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1852,8 +1874,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-82" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-54" : [ "live.gain~[11]", "live.gain~", 0 ]
+			"obj-54" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-82" : [ "live.gain~[3]", "live.gain~[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
