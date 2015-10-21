@@ -38,19 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 939.0, 217.0, 44.0, 22.0 ],
-					"style" : "",
-					"text" : "tapin~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-12",
 					"linecount" : 6,
 					"maxclass" : "comment",
@@ -59,19 +46,6 @@
 					"patching_rect" : [ 583.0, 239.0, 221.0, 87.0 ],
 					"style" : "",
 					"text" : "-130,-105, et -120,-115\n\n\n-75(100) -50(128) et -60(118) -70(110)\n\n\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.0, 98.0, 153.0, 22.0 ],
-					"style" : "",
-					"text" : "udpreceive 127.0.0.1 7400"
 				}
 
 			}
@@ -1032,19 +1006,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 21.0, 33.0, 22.0 ],
-					"style" : "",
-					"text" : "r H2"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1053,19 +1014,6 @@
 					"patching_rect" : [ 406.0, 499.0, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "r H1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.5, 21.0, 33.0, 22.0 ],
-					"style" : "",
-					"text" : "r P3"
 				}
 
 			}
@@ -1874,20 +1822,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-54" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-82" : [ "live.gain~[3]", "live.gain~[3]", 0 ]
+			"obj-82" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-54" : [ "live.gain~[11]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ReceivedSerial.maxpat",
-				"bootpath" : "~/Documents/GitProject/Opia/OpiaProject/max msp",
+				"bootpath" : "~/Documents/GitHub/OpiaProject/max msp",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synthJat.maxpat",
-				"bootpath" : "~/Documents/GitProject/Opia/OpiaProject/max msp",
+				"bootpath" : "~/Documents/GitHub/OpiaProject/max msp",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
