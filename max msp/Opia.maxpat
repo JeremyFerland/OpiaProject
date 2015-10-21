@@ -997,7 +997,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 34.0, 45.0, 352.0, 104.0 ],
+					"patching_rect" : [ 34.0, 45.0, 352.0, 138.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 25.0, 357.0, 241.0 ],
 					"viewvisibility" : 1
