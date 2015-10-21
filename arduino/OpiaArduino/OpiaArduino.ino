@@ -36,7 +36,7 @@ void loop() {
 }
 
 //-----------------------------------//
-// Potentiometer print function 
+// Analog print function 
 void printAnalogVal(int nbCapteur, String prefix) {
   int val = analogRead(nbCapteur);
   Serial.print(prefix);
@@ -46,7 +46,7 @@ void printAnalogVal(int nbCapteur, String prefix) {
 }
 
 //-----------------------------------//
-// Hall sensor print function 
+// Digital sensor print function 
 void printDigitalVal(int nbCapteur, String prefix) {
   int val = digitalRead(nbCapteur);
   Serial.print(prefix);
