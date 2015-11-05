@@ -13,12 +13,12 @@ The Arduino code sends data from the sensors to the serial where MAX MSP collect
 Max MSP recieves the serial communication to convert into OSC packets needed to communicate between the applications. It also runs a synth to create a musical tention reaction from the inteaction.
 
 
-## Video  
+## Video
 
-[![Opia Project](https://www.img.youtube.com/vi/default.jpg)](https://www.youtube.com/embed/0o8mw5g3wG8 "Opia Project")
+
+"[Project Opia](https://www.youtube.com/embed/0o8mw5g3wG8)"
 
 ## Hardware needed
-
 - 1 Arduino Leonardo and a usb A to B cable
 - 2 x 10k potentiometers (https://www.adafruit.com/products/562)
 - 1 x hall sensor (https://www.adafruit.com/products/158)
@@ -26,7 +26,6 @@ Max MSP recieves the serial communication to convert into OSC packets needed to 
 - Some 10 AWG cables
 
 ## Software required
-
 - Processing (v2.0 or later)
 - Arduino (v1.5 or later)
 - Max MSP (v6.1 or later)
