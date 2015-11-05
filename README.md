@@ -15,7 +15,7 @@ Max MSP recieves the serial communication to convert into OSC packets needed to 
 
 ## Video  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0o8mw5g3wG8" frameborder="0" allowfullscreen></iframe>
+[![Opia Project](https://www.img.youtube.com/vi/default.jpg)](https://www.youtube.com/embed/0o8mw5g3wG8 "Opia Project")
 
 ## Hardware needed
 
